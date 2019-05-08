@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package thecoffeecan
+ * @package EmsCustomTheme
  */
 
 ?>
@@ -14,14 +14,14 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php thecoffeecan_post_thumbnail(); ?>
+	<?php emscustomtheme_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
 		the_content();
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'thecoffeecan' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'emscustomtheme' ),
 			'after'  => '</div>',
 		) );
 		?>
@@ -34,7 +34,7 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'thecoffeecan' ),
+						__( 'Edit <span class="screen-reader-text">%s</span>', 'emscustomtheme' ),
 						array(
 							'span' => array(
 								'class' => array(),

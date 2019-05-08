@@ -7,7 +7,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package thecoffeecan
+ * @package EmsCustomTheme
  */
 
 /*
@@ -28,18 +28,18 @@ if ( post_password_required() ) {
 		?>
 		<h2 class="comments-title">
 			<?php
-			$thecoffeecan_comment_count = get_comments_number();
-			if ( '1' === $thecoffeecan_comment_count ) {
+			$emscustomtheme_comment_count = get_comments_number();
+			if ( '1' === $emscustomtheme_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'thecoffeecan' ),
+					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'emscustomtheme' ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			} else {
 				printf( // WPCS: XSS OK.
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $thecoffeecan_comment_count, 'comments title', 'thecoffeecan' ) ),
-					number_format_i18n( $thecoffeecan_comment_count ),
+					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $emscustomtheme_comment_count, 'comments title', 'emscustomtheme' ) ),
+					number_format_i18n( $emscustomtheme_comment_count ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			}
@@ -63,7 +63,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() ) :
 			?>
-			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'thecoffeecan' ); ?></p>
+			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'emscustomtheme' ); ?></p>
 			<?php
 		endif;
 

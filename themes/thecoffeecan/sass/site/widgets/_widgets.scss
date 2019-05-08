@@ -1,0 +1,43 @@
+.widget-area {
+	display: flex;
+	overflow: auto;
+	justify-content: space-evenly;
+	background-color: $color__background-coffee;
+	width: 100%;
+	padding: 1em;
+}
+
+
+.widget {
+	font-size: 1em;
+	color: white;
+	margin: 0 .5em;
+	display: inline-block;
+	vertical-align: top;
+	background-color: transparent;
+	width: 20%;
+	padding: .5em;
+	.widget-title {
+		font-size: 1em;
+		font-weight: bold;
+	}
+	ul {
+		font-size: .8em;
+		font-family: $font__sans;
+		padding: 0;
+		margin: 0;
+		float: none;
+		list-style: none;
+	}
+}
+
+.search-form {
+	margin-right: 1em;
+	.search-field{
+		display: block;
+		position: relative;
+		width: 100%;
+	}
+}
+
+

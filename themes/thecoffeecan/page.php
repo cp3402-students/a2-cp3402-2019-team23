@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package thecoffeecan
+ * @package EmsCustomTheme
  */
 
 get_header();
@@ -33,6 +33,12 @@ get_header();
 		?>
 
 		</main><!-- #main -->
+
+        <section class="single-side-bar">
+            <?php
+            get_sidebar();
+            ?>
+        </section>
 	</div><!-- #primary -->
 
 <?php

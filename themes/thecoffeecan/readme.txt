@@ -1,4 +1,4 @@
-=== thecoffeecan ===
+=== EmsCustomTheme ===
 
 Contributors: automattic
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
@@ -9,11 +9,11 @@ Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
-A starter theme called thecoffeecan.
+A starter theme called EmsCustomTheme.
 
 == Description ==
 
-Description
+Theme created in compliance for CP3402 A2
 
 == Installation ==
 
@@ -25,7 +25,7 @@ Description
 
 = Does this theme support any plugins? =
 
-thecoffeecan includes support for Infinite Scroll in Jetpack.
+EmsCustomTheme includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
