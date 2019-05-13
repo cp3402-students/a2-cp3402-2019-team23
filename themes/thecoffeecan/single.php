@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package EmsCustomTheme
+ * @package The Coffee Can
  */
 
 get_header();

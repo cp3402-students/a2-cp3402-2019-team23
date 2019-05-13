@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package EmsCustomTheme
+ * @package The Coffee Can
  */
 
 ?>
@@ -22,21 +22,21 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				emscustomtheme_posted_on();
-				emscustomtheme_posted_by();
+				thecoffeecan_posted_on();
+				thecoffeecan_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php emscustomtheme_post_thumbnail(); ?>
+	<?php thecoffeecan_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
 		the_content( sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'emscustomtheme' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'thecoffeecan' ),
 				array(
 					'span' => array(
 						'class' => array(),
@@ -47,13 +47,13 @@
 		) );
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'emscustomtheme' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'thecoffeecan' ),
 			'after'  => '</div>',
 		) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php emscustomtheme_entry_footer(); ?>
+		<?php thecoffeecan_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

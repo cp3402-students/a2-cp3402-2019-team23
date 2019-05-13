@@ -8,33 +8,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package EmsCustomTheme
+ * @package The Coffee Can
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses emscustomtheme_header_style()
+ * @uses thecoffeecan_header_style()
  */
-function emscustomtheme_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'emscustomtheme_custom_header_args', array(
+function thecoffeecan_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'thecoffeecan_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => 'ffffff',
 		'width'                  => 2000,
 		'height'                 => 850,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'emscustomtheme_header_style',
+		'wp-head-callback'       => 'thecoffeecan_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'emscustomtheme_custom_header_setup' );
+add_action( 'after_setup_theme', 'thecoffeecan_custom_header_setup' );
 
-if ( ! function_exists( 'emscustomtheme_header_style' ) ) :
+if ( ! function_exists( 'thecoffeecan_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see emscustomtheme_custom_header_setup().
+	 * @see thecoffeecan_custom_header_setup().
 	 */
-	function emscustomtheme_header_style() {
+	function thecoffeecan_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*
