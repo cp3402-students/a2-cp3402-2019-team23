@@ -1,4 +1,4 @@
-=== The Coffee Can ===
+=== The_Coffee_Can ===
 
 Contributors: automattic
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
@@ -9,7 +9,7 @@ Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
-A starter theme called The Coffee Can.
+A starter theme called The_Coffee_Can.
 
 == Description ==
 

@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package The Coffee Can
+ * @package The_Coffee_Can
  */
 
 get_header();

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package The Coffee Can
+ * @package The_Coffee_Can
  */
 
 get_header();

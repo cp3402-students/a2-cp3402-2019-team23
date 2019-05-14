@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package The Coffee Can
+ * @package The_Coffee_Can
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {

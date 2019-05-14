@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package The Coffee Can
+ * @package The_Coffee_Can
  */
 
 ?>
@@ -47,7 +47,7 @@
 
 <div id="page" class="site">
     <a class="skip-link screen-reader-text"
-       href="#content"><?php esc_html_e('Skip to content', 'thecoffeecan'); ?></a>
+       href="#content"><?php esc_html_e('Skip to content', 'the-coffee-can'); ?></a>
 
     <header id="masthead" class="site-header">
         <div class="site-branding">
@@ -67,17 +67,17 @@
                                              rel="home"><?php bloginfo('name'); ?></a></p>
                 <?php
                 endif;
-                $thecoffeecan_description = get_bloginfo('description', 'display');
-                if ($thecoffeecan_description || is_customize_preview()) :
+                $the_coffee_can_description = get_bloginfo('description', 'display');
+                if ($the_coffee_can_description || is_customize_preview()) :
                     ?>
-                    <p class="site-description"><?php echo $thecoffeecan_description; /* WPCS: xss ok. */ ?></p>
+                    <p class="site-description"><?php echo $the_coffee_can_description; /* WPCS: xss ok. */ ?></p>
                 <?php endif; ?>
             </div>
         </div><!-- .site-branding -->
 
         <nav id="site-navigation" class="main-navigation">
             <button class="menu-toggle" aria-controls="primary-menu"
-                    aria-expanded="false"><?php esc_html_e('Primary Menu', 'thecoffeecan'); ?></button>
+                    aria-expanded="false"><?php esc_html_e('Primary Menu', 'the-coffee-can'); ?></button>
             <?php
 
             wp_nav_menu(array(
