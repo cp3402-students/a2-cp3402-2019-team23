@@ -1,4 +1,13 @@
 .site-footer {
-  @extend .site-header;
-  justify-content: center;
+  background-color: $color__coffee;
+  padding: 1em;
+  align-content: center;
+  .site-info{
+    text-align: center;
+    color: white;
+    width: 100%;
+    a{
+      color: white;
+    }
+  }
 }

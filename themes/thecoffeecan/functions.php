@@ -15,7 +15,7 @@ if ( ! function_exists( 'the_coffee_can_setup' ) ) :
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 */
-	function the_coffee_can_setup() {
+	function The_Coffee_Can_setup() {
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
@@ -46,6 +46,7 @@ if ( ! function_exists( 'the_coffee_can_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'the-coffee-can' ),
             'social' => esc_html__( 'Social', 'the-coffee-can' ),
+            'call-to-action' => esc_html__( 'Call-to-action', 'the-coffee-can' ),
 		) );
 
 		/*
@@ -66,13 +67,6 @@ if ( ! function_exists( 'the_coffee_can_setup' ) ) :
 			'default-image' => '',
 		) ) );
 
-        // Add theme support for Custom Logo
-        add_theme_support( 'custom-logo', array(
-            'width' => 100,
-            'height' => 100,
-            'flex-width' => true,
-        ));
-
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
@@ -92,43 +86,13 @@ endif;
 add_action( 'after_setup_theme', 'the_coffee_can_setup' );
 
 /**
- * Register custom fonts.
- */
-//function the_coffee_can_fonts_url() {
-//    $fonts_url = '';
-//
-//    /*
-//     * Translators: If there are characters in your language that are not
-//     * supported by Libre Franklin, translate this to 'off'. Do not translate
-//     * into your own language.
-//     */
-//    $libre_franklin = _x( 'on', 'Libre Franklin font: on or off', 'twentyseventeen' );
-//
-//    if ( 'off' !== $libre_franklin ) {
-//        $font_families = array();
-//
-//        $font_families[] = 'Libre Franklin:300,300i,400,400i,600,600i,800,800i';
-//
-//        $query_args = array(
-//            'family' => urlencode( implode( '|', $font_families ) ),
-//            'subset' => urlencode( 'latin,latin-ext' ),
-//        );
-//
-//        $fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
-//    }
-//
-//    return esc_url_raw( $fonts_url );
-//}
-
-
-/**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * Priority 0 to make it available to lower priority callbacks.
  *
  * @global int $content_width
  */
-function the_coffee_can_content_width() {
+function The_Coffee_Can_content_width() {
 	// This variable is intended to be overruled from themes.
 	// Open WPCS issue: {@link https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/1043}.
 	// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
@@ -141,7 +105,7 @@ add_action( 'after_setup_theme', 'the_coffee_can_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function the_coffee_can_widgets_init() {
+function The_Coffee_Can_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'the-coffee-can' ),
 		'id'            => 'sidebar-1',
@@ -157,12 +121,10 @@ add_action( 'widgets_init', 'the_coffee_can_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
-function the_coffee_can_scripts() {
+function The_Coffee_Can_scripts() {
 
     //enqueue google fonts: Source Sans Pro and PT Serif
-    wp_enqueue_style('emsfonts', 'https://fonts.googleapis.com/css?family=Heebo|PT+Serif+Caption:400,400i|Source+Sans+Pro:400,400i,600,900|Wendy+One');
-
-    wp_enqueue_style('bootstrap-style', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+    wp_enqueue_style('emsfonts', 'https://fonts.googleapis.com/css?family=Baloo+Bhai|Modak|Nunito');
 
 	wp_enqueue_style( 'the-coffee-can-style', get_stylesheet_uri() );
 

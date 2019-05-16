@@ -1,12 +1,39 @@
-
-.content-area {
+.site-content{
   width: 80%;
   margin: 0 auto;
-  background-color: transparent;
+  background-color: white;
+  padding: 0 2em;
+  font-family: $font__mainText;
+  font-size: large;
+  h1, h2, h3{
+    font-family: $font__header;
+    a{
+      color: $color__coffee;
+      text-decoration: none;
+    }
+  }
 }
 
-.site{
-  margin:0;
-  padding: 0;
-  width: 100%;
-} 
+.content-area{
+  float: left;
+  width: 80%;
+  padding-right: 2em;
+  margin: 0;
+
+}
+.widget-area{
+  display: block;
+  float: right;
+  width: 20%;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .content-area, .widget-area, .site-branding, .main-navigation{
+    @include small-screen;
+  }
+  .call-to-action{
+    top: 0;
+  }
+}
+

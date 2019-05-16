@@ -29,7 +29,7 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php the_coffee_can_post_thumbnail(); ?>
+	<?php The_Coffee_Can_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -54,6 +54,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php the_coffee_can_entry_footer(); ?>
+		<?php The_Coffee_Can_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -4,12 +4,7 @@
 
 .post,
 .page {
-	margin: 1.5em 0;
-	background-color: $color__background-screen;
-	padding: 1em;
-	width: 100%;
-	border-radius: .5em;
-
+	margin: 0 0 1.5em;
 }
 
 .updated:not(.published) {
@@ -26,6 +21,3 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
-
-
-@import "entry";

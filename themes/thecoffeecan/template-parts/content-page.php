@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php the_coffee_can_post_thumbnail(); ?>
+	<?php The_Coffee_Can_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php

@@ -1,7 +1,7 @@
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1) {
-	font-size: ($sizeValue * 20) * 1px;
-	font-size: $sizeValue * 1.25rem;
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
 }
 
 // Center block
@@ -28,28 +28,8 @@
 	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
 }
 
-//colored label
-@mixin header-with-background{
-	ul{
-		list-style: none;
-		li{
-			display: inline-block;
-			margin: 1em;
-			a{
-				display: block;
-
-			}
-		}
-	}
-	height: fit-content;
-	display: inline-block;
-	font-size: .8em;
-	padding:0;
-	margin: 0;
-	background-color: $color__background-coffee;
-}
-
-@mixin no-padding-margin{
-	margin: 0;
-	padding:0;
+@mixin small-screen(){
+	float:none;
+	display: block;
+	width: 100%;
 }

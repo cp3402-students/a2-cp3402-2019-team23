@@ -13,7 +13,7 @@ A starter theme called The_Coffee_Can.
 
 == Description ==
 
-Theme created in compliance for CP3402 A2
+Theme created in compliance to CP3402 Assessment 2.
 
 == Installation ==
 
@@ -25,7 +25,7 @@ Theme created in compliance for CP3402 A2
 
 = Does this theme support any plugins? =
 
-The Coffee Can includes support for Infinite Scroll in Jetpack.
+Cp3402Team23Theme includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 

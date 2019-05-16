@@ -23,13 +23,13 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php the_coffee_can_post_thumbnail(); ?>
+	<?php The_Coffee_Can_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 
 	<footer class="entry-footer">
-		<?php the_coffee_can_entry_footer(); ?>
+		<?php The_Coffee_Can_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
