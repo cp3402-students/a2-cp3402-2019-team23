@@ -36,23 +36,28 @@
         </div>
 
     <?php endif; // End header image check. ?>
-    <div class="call-to-action">
-        <?php
-        wp_nav_menu(array(
-            'theme_location' => 'call-to-action',
-            'menu_id' => 'call-to-action-menu',
-        ));
-        ?>
 
+    <div class="top-ribbon">
+        <div class="call-to-action">
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'call-to-action',
+                'menu_id' => 'call-to-action-menu',
+            ));
+            ?>
+
+        </div>
+        <div class="social-nav-bar">
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'social',
+                'menu_id' => 'social-menu',
+            ));
+            ?>
+        </div>
     </div>
-<!--    <div class="social-nav-bar">-->
-<!--        --><?php
-//        wp_nav_menu(array(
-//            'theme_location' => 'social',
-//            'menu_id' => 'social-menu',
-//        ));
-//        ?>
-<!--    </div>-->
+
+
 
 
 
