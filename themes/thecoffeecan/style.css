@@ -876,7 +876,7 @@ a:hover, a:active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #deb887;
+  background-color: white;
   margin-top: 1em;
   padding: 1em;
   color: white;
@@ -912,7 +912,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .site-header {
   padding: 0.5em;
-  background-color: #deb887;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1024,7 +1024,7 @@ a:hover, a:active {
 }
 
 .site-content h1 a, .site-content h2 a, .site-content h3 a {
-  color: #deb887;
+  color: white;
   text-decoration: none;
 }
 
@@ -1099,7 +1099,7 @@ a:hover, a:active {
 ## Footer
 --------------------------------------------------------------*/
 .site-footer {
-  background-color: #deb887;
+  background-color: white;
   padding: 1em;
   -ms-flex-line-pack: center;
       align-content: center;
