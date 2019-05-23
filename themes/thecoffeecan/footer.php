@@ -13,15 +13,6 @@
 
 	</div><!-- #content -->
 
-<!--    <div class="social-nav-bar">-->
-<!--        --><?php
-//        wp_nav_menu(array(
-//            'theme_location' => 'social',
-//            'menu_id' => 'social-menu',
-//        ));
-//        ?>
-<!--    </div>-->
-
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'the-coffee-can' ) ); ?>">

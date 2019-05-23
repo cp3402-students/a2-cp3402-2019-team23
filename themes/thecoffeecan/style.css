@@ -47,6 +47,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
 	 ========================================================================== */
+html,
+body {
+  height: 100%;
+}
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -65,6 +70,13 @@ html {
  */
 body {
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /**
@@ -1017,13 +1029,20 @@ a:hover, a:active {
   padding: 0 2em;
   font-family: "Nunito", sans-serif;
   font-size: large;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
-.site-content h1, .site-content h2, .site-content h3 {
+.site-content h1,
+.site-content h2,
+.site-content h3 {
   font-family: "Cooper Black", "Baloo Bhai", cursive;
 }
 
-.site-content h1 a, .site-content h2 a, .site-content h3 a {
+.site-content h1 a,
+.site-content h2 a,
+.site-content h3 a {
   color: #deb887;
   text-decoration: none;
 }
@@ -1047,7 +1066,10 @@ a:hover, a:active {
 }
 
 @media screen and (max-width: 1024px) {
-  .content-area, .widget-area, .site-branding, .main-navigation {
+  .content-area,
+  .widget-area,
+  .site-branding,
+  .main-navigation {
     float: none;
     display: block;
     width: 100%;
@@ -1099,20 +1121,14 @@ a:hover, a:active {
 ## Footer
 --------------------------------------------------------------*/
 .site-footer {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   background-color: #deb887;
-  padding: 1em;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  text-align: center;
 }
 
 .site-footer .site-info {
-  text-align: center;
-  color: white;
-  width: 100%;
-}
-
-.site-footer .site-info a {
-  color: white;
+  color: #1c1c1c;
 }
 
 /*--------------------------------------------------------------

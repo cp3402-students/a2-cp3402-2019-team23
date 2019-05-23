@@ -1,26 +1,32 @@
-.site-content{
+.site-content {
   width: 80%;
   margin: 0 auto;
   background-color: white;
   padding: 0 2em;
   font-family: $font__mainText;
   font-size: large;
-  h1, h2, h3{
+  flex: 1 0 auto;
+
+  h1,
+  h2,
+  h3 {
     font-family: $font__header;
-    a{
+
+    a {
       color: $color__coffee;
       text-decoration: none;
     }
   }
 }
 
-.content-area{
+.content-area {
   width: 100%;
   padding-right: 2em;
   margin: 0;
 
 }
-.widget-area{
+
+.widget-area {
   display: flex;
   width: 100%;
   position: relative;
@@ -28,17 +34,21 @@
 
 
 //page header
-.entry-header{
+.entry-header {
   display: none;
 }
 
 
 @media screen and (max-width: 1024px) {
-  .content-area, .widget-area, .site-branding, .main-navigation{
+
+  .content-area,
+  .widget-area,
+  .site-branding,
+  .main-navigation {
     @include small-screen;
   }
-  .call-to-action{
+
+  .call-to-action {
     top: 0;
   }
 }
-

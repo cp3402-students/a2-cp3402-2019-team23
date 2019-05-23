@@ -1,13 +1,9 @@
 .site-footer {
+  flex-shrink: 0;
   background-color: $color__coffee;
-  padding: 1em;
-  align-content: center;
-  .site-info{
-    text-align: center;
-    color: white;
-    width: 100%;
-    a{
-      color: white;
-    }
+  text-align: center;
+
+  .site-info {
+    color: $color__text-main;
   }
 }
