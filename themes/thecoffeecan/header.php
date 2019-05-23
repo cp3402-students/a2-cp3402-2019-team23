@@ -37,23 +37,6 @@
 
     <?php endif; // End header image check. ?>
 
-    <div class="top-ribbon">
-<!--        <div class="call-to-action">-->
-<!--            --><?php
-//            wp_nav_menu(array(
-//                'theme_location' => 'call-to-action',
-//                'menu_id' => 'call-to-action-menu',
-//            ));
-//            ?>
-<!---->
-<!--        </div>-->
-
-    </div>
-
-
-
-
-
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php

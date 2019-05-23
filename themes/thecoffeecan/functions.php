@@ -46,7 +46,7 @@ if ( ! function_exists( 'the_coffee_can_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'the-coffee-can' ),
             'social' => esc_html__( 'Social', 'the-coffee-can' ),
-            'call-to-action' => esc_html__( 'Call-to-action', 'the-coffee-can' ),
+//            'call-to-action' => esc_html__( 'Call-to-action', 'the-coffee-can' ),
 		) );
 
 		/*
