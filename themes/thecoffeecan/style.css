@@ -762,7 +762,7 @@ a {
   background-color: #ad6635;
   width: 100%;
   display: flex;
-  padding: 1em;
+  padding: 0 0 0 1em;
   z-index: 99;
   position: sticky;
   margin: 0; }
@@ -785,7 +785,7 @@ a {
 
 .main-navigation {
   width: 50%;
-  padding: 1em; }
+  padding-top: 2em; }
   .main-navigation a {
     color: white;
     font-family: "Baloo Bhai", cursive;
@@ -835,6 +835,9 @@ a {
   display: flex;
   width: 100%;
   position: relative; }
+
+.entry-header {
+  display: none; }
 
 @media screen and (max-width: 1024px) {
   .content-area, .widget-area, .site-branding, .main-navigation {

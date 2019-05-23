@@ -2,7 +2,7 @@
   background-color: $color__coffee;
   width: 100%;
   display: flex;
-  padding: 1em;
+  padding: 0 0 0 1em;
   z-index: 99;
   position: sticky;
   margin: 0;
@@ -32,7 +32,7 @@
 //all other css can be seen navigation directory - menus.scss
 .main-navigation{
   width: 50%;
-  padding: 1em;
+  padding-top: 2em;
   a{
     color: white;
     font-family: $font__header;

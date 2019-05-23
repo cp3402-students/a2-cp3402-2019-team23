@@ -26,6 +26,13 @@
   position: relative;
 }
 
+
+//page header
+.entry-header{
+  display: none;
+}
+
+
 @media screen and (max-width: 1024px) {
   .content-area, .widget-area, .site-branding, .main-navigation{
     @include small-screen;
