@@ -4,6 +4,12 @@
   text-align: center;
 
   .site-info {
-    color: $color__text-main;
+    a {
+      color: $color__text-main;
+      font-family: $font__footer;
+      font-size: 0.875em;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
   }
 }

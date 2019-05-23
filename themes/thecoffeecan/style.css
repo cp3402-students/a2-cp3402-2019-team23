@@ -1127,8 +1127,12 @@ a:hover, a:active {
   text-align: center;
 }
 
-.site-footer .site-info {
+.site-footer .site-info a {
   color: #1c1c1c;
+  font-family: "Lato", "Nunito", sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /*--------------------------------------------------------------
