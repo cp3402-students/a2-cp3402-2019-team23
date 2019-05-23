@@ -1,15 +1,22 @@
 .site-footer {
   flex-shrink: 0;
-  background-color: $color__coffee;
+  background-color: $color__footer;
   text-align: center;
+  padding-bottom: 0.5em;
 
   .site-info {
-    a {
-      color: $color__text-main;
-      font-family: $font__footer;
+    display: flex;
+    justify-content: center;
+    color: $color__text-footer;
+    font-family: $font__footer;
+    text-transform: uppercase;
+
+    div {
+      padding: 1.5em;
+    }
+
+    h1 {
       font-size: 0.875em;
-      font-weight: bold;
-      text-transform: uppercase;
     }
   }
 }

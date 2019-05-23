@@ -124,7 +124,7 @@ add_action( 'widgets_init', 'the_coffee_can_widgets_init' );
 function The_Coffee_Can_scripts() {
 
     //enqueue google fonts: Source Sans Pro and PT Serif
-    wp_enqueue_style('the-coffee-can-fonts', 'https://fonts.googleapis.com/css?family=Baloo+Bhai|Modak|Nunito|Lato');
+    wp_enqueue_style('the-coffee-can-fonts', 'https://fonts.googleapis.com/css?family=Baloo+Bhai|Modak|Nunito|Roboto+Condensed');
 
 	wp_enqueue_style( 'the-coffee-can-style', get_stylesheet_uri() );
 

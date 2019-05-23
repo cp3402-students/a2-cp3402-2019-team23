@@ -1123,16 +1123,29 @@ a:hover, a:active {
 .site-footer {
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  background-color: #deb887;
+  background-color: #1e1e1e;
   text-align: center;
+  padding-bottom: 0.5em;
 }
 
-.site-footer .site-info a {
-  color: #1c1c1c;
-  font-family: "Lato", "Nunito", sans-serif;
-  font-size: 0.875em;
-  font-weight: bold;
+.site-footer .site-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #5f5f5f;
+  font-family: "Roboto Condensed", "Nunito", sans-serif;
   text-transform: uppercase;
+}
+
+.site-footer .site-info div {
+  padding: 1.5em;
+}
+
+.site-footer .site-info h1 {
+  font-size: 0.875em;
 }
 
 /*--------------------------------------------------------------
