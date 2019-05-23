@@ -13,14 +13,14 @@
 
 	</div><!-- #content -->
 
-    <div class="social-nav-bar">
-        <?php
-        wp_nav_menu(array(
-            'theme_location' => 'social',
-            'menu_id' => 'social-menu',
-        ));
-        ?>
-    </div>
+<!--    <div class="social-nav-bar">-->
+<!--        --><?php
+//        wp_nav_menu(array(
+//            'theme_location' => 'social',
+//            'menu_id' => 'social-menu',
+//        ));
+//        ?>
+<!--    </div>-->
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">

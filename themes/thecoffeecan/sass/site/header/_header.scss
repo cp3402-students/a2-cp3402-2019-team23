@@ -1,11 +1,13 @@
-.site-header{
-  background-color: #ffff;
+.site-header {
+  background-color: $color__coffee;
   width: 100%;
   display: flex;
   padding: 2em;
   z-index: 99;
   position: sticky;
   top: 2em;
+  margin: 0;
+
 }
 
 .site-branding{

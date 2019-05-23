@@ -15,16 +15,14 @@
 }
 
 .content-area{
-  float: left;
-  width: 80%;
+  width: 100%;
   padding-right: 2em;
   margin: 0;
 
 }
 .widget-area{
-  display: block;
-  float: right;
-  width: 20%;
+  display: flex;
+  width: 100%;
   position: relative;
 }
 

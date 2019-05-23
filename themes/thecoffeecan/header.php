@@ -47,14 +47,7 @@
 //            ?>
 <!---->
 <!--        </div>-->
-        <div class="social-nav-bar">
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'social',
-                'menu_id' => 'social-menu',
-            ));
-            ?>
-        </div>
+
     </div>
 
 
@@ -79,6 +72,15 @@
 				?>
 				<p class="site-description"><?php echo $the_coffee_can_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
+
+            <div class="social-nav-bar">
+                <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'social',
+                    'menu_id' => 'social-menu',
+                ));
+                ?>
+            </div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">

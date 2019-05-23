@@ -613,30 +613,25 @@ a {
 ## Menus-social media
 --------------------------------------------------------------*/
 .social-nav-bar {
-  float: right;
-  right: 1em;
-  width: fit-content;
-  align-content: end; }
+  display: block;
+  width: fit-content; }
   .social-nav-bar ul {
     display: block;
     right: 0;
     float: right;
     margin: 0;
     padding: 0;
-    width: 100%; }
+    width: fit-content; }
     .social-nav-bar ul li {
       list-style: none;
       display: inline-block;
-      margin: 0 2em; }
+      margin: 1em 2em 0 0; }
       .social-nav-bar ul li a {
-        color: #ad6635;
+        color: white;
         text-decoration: none;
         font-family: "Baloo Bhai", cursive;
         display: block; }
 
-@media screen and (min-width: 37.5em) {
-  .social-nav-bar {
-    margin-left: 50%; } }
 /*--------------------------------------------------------------
 ## Menus-call to action
 --------------------------------------------------------------*/
@@ -661,7 +656,7 @@ a {
 
 .top-ribbon {
   width: 100%;
-  height: fit-content;
+  height: 2em;
   display: flex;
   margin: 0;
   padding: 0;
@@ -762,8 +757,6 @@ a {
 --------------------------------------------------------------*/
 .widget {
   padding: 1em;
-  border-radius: 2px;
-  border-bottom: 1px solid white;
   margin: 0;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
@@ -796,13 +789,14 @@ a {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-  background-color: #ffff;
+  background-color: #ad6635;
   width: 100%;
   display: flex;
   padding: 2em;
   z-index: 99;
   position: sticky;
-  top: 2em; }
+  top: 2em;
+  margin: 0; }
 
 .site-branding {
   width: 50%;
@@ -864,15 +858,13 @@ a {
       text-decoration: none; }
 
 .content-area {
-  float: left;
-  width: 80%;
+  width: 100%;
   padding-right: 2em;
   margin: 0; }
 
 .widget-area {
-  display: block;
-  float: right;
-  width: 20%;
+  display: flex;
+  width: 100%;
   position: relative; }
 
 @media screen and (max-width: 1024px) {

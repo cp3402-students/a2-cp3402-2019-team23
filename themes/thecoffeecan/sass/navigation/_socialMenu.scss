@@ -1,23 +1,25 @@
 .social-nav-bar{
-  float: right;
-  right: 1em;
+  display: block;
   width: fit-content;
-  align-content: end;
 
 
-  ul{
+  ul {
     display: block;
     right: 0;
     float: right;
     margin: 0;
     padding: 0;
-    width: 100%;
-    li{
+    width: fit-content;
+
+    li {
       list-style: none;
       display: inline-block;
-      margin: 0 2em;
-      a{
-        color: $color__coffee;
+      margin: 1em 2em 0 0;
+
+
+      a {
+        //color: $color__coffee;
+        color: white;
         text-decoration: none;
         font-family: $font__header;
         display: block;
@@ -28,6 +30,6 @@
 
 @media screen and (min-width: 37.5em){
   .social-nav-bar{
-    margin-left: 50%;
+    //margin-left: 50%;
   }
 }
