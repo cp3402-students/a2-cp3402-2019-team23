@@ -888,7 +888,7 @@ a:hover, a:active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: pink;
+  background-color: #deb877;
   margin-top: 1em;
   padding: 1em;
   color: white;
@@ -924,7 +924,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .site-header {
   padding: 0.5em;
-  background-color: pink;
+  background-color: #deb877;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1044,7 +1044,7 @@ a:hover, a:active {
 .site-content h1 a,
 .site-content h2 a,
 .site-content h3 a {
-  color: pink;
+  color: #deb877;
   text-decoration: none;
 }
 
