@@ -7,7 +7,8 @@
 * [Aidan Kayrooz](https://github.com/aidank01 "@aidank01")
 
 ## Sites
-* Staging: <http://ec2-13-211-132-120.ap-southeast-2.compute.amazonaws.com>
+* Staging: <http://13.211.132.120>
+* Production: <http://13.239.133.7>
 
 ## Developing for Wordpress
 Before we get started developing, you need to have a Local Development Environment with Wordpress installed. [WPDistillery](https://github.com/flurinduerst/WPDistillery) is a good example and easy to set up for beginners.
@@ -28,4 +29,6 @@ Once you are happy with the changes you have made, follow these steps:
 3. ```git push -u origin develop``` to push the committed files to the develop branch.
 
 ## Deploying
-Our deployment strategy employs the use of webhooks to automatically pull any changes that are made to the master branch into the wp-content folder on the staging server. Currently, this is only triggered based on push events.
+Our deployment strategy employs the use of webhooks to keep the sites up to date with the repository, replacing the wp-content folder on the servers. The develop branch replaces the folder on the staging server while the master branch replaces the folder on the production server. 
+
+The content of the site is controlled through the use of the wp-sync-db plugin to push and pull the database between the servers and Local Development Environments. 
