@@ -1,1 +1,1 @@
-<?php `git fetch --all`; `git reset --hard origin/develop`;
+<?php `git pull origin develop`;
