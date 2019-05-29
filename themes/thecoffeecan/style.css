@@ -766,7 +766,7 @@ a {
 --------------------------------------------------------------*/
 .site-header {
   padding: 0.5em;
-  background-color: #ffff;
+  background-color: #deb877;
   display: flex;
   justify-content: space-between;
   position: sticky;
