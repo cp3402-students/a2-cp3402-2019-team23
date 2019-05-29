@@ -740,7 +740,7 @@ a {
 
 .widget-area {
   justify-content: space-between;
-  background-color: #deb877;
+  background-color: #fff;
   margin-top: 1em;
   padding: 1em;
   color: white; }
@@ -766,7 +766,7 @@ a {
 --------------------------------------------------------------*/
 .site-header {
   padding: 0.5em;
-  background-color: #deb877;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -846,7 +846,7 @@ a {
     .site-content h1 a,
     .site-content h2 a,
     .site-content h3 a {
-      color: #deb877;
+      color: #fff;
       text-decoration: none; }
 
 .content-area {
@@ -909,7 +909,7 @@ a {
 --------------------------------------------------------------*/
 .site-footer {
   flex-shrink: 0;
-  background-color: #deb877;
+  background-color: #fff;
   text-align: center;
   padding-bottom: 0.5em; }
   .site-footer .site-info {
